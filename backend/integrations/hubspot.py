@@ -13,8 +13,8 @@ from integrations.integration_item import IntegrationItem
 from redis_client import add_key_value_redis, get_value_redis, delete_key_redis
 
 # HubSpot OAuth credentials - Replace with your actual credentials
-CLIENT_ID = 'b298245e-f5b4-4450-af9a-de2d9828bc50'
-CLIENT_SECRET = 'e0d884ec-1731-44c1-b4ba-3924d92aed65'
+CLIENT_ID ='XYZ'
+CLIENT_SECRET = 'XYZ'
 
 # Redirect URL - must match exactly what's configured in your HubSpot app
 REDIRECT_URI = 'http://localhost:8000/integrations/hubspot/oauth2callback'
